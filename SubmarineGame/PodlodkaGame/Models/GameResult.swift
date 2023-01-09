@@ -19,7 +19,7 @@ class GameResult: Codable {
 
 	func saveGameResult(gameDuration: Double, currentDate: Date){
 		allGameResult.append(Game(name: GameSettings.shared.nickname, gameTime: gameDuration, gameDate: currentDate))
-		UserDefaults.standard.set(encodable: allGameResult, forKey: "allGameResult")
+		UserDefaults.standard.set(encodable: allGameResult.sorted { $0.gameTime > $1.gameTime }, forKey: "allGameResult")
 	}
 }
 
