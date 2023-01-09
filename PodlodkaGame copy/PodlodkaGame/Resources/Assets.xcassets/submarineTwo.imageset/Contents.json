@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "submarineTwo.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
