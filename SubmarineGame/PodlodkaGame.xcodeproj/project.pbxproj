@@ -14,7 +14,7 @@
 		961FC48928D8AA0A00D7A50F /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961FC48828D8AA0900D7A50F /* GameSettings.swift */; };
 		9658AE7D28B4253C00BA6982 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9658AE7C28B4253C00BA6982 /* AppDelegate.swift */; };
 		9658AE7F28B4253C00BA6982 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9658AE7E28B4253C00BA6982 /* SceneDelegate.swift */; };
-		9658AE8128B4253C00BA6982 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9658AE8028B4253C00BA6982 /* ViewController.swift */; };
+		9658AE8128B4253C00BA6982 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9658AE8028B4253C00BA6982 /* MainViewController.swift */; };
 		9658AE8628B4253D00BA6982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9658AE8528B4253D00BA6982 /* Assets.xcassets */; };
 		9658AE8928B4253D00BA6982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9658AE8728B4253D00BA6982 /* LaunchScreen.storyboard */; };
 		9658AE9328B4E79B00BA6982 /* GameStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9658AE9228B4E79B00BA6982 /* GameStoryboard.storyboard */; };
@@ -23,6 +23,9 @@
 		9658AE9928B4E7CD00BA6982 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9658AE9828B4E7CD00BA6982 /* GameViewController.swift */; };
 		9658AE9B28B4E7DC00BA6982 /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9658AE9A28B4E7DC00BA6982 /* RecordsViewController.swift */; };
 		9658AE9D28B4E7E900BA6982 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9658AE9C28B4E7E900BA6982 /* SettingsViewController.swift */; };
+		968AAB782961DAEC00A5C262 /* SettingsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AAB772961DAEC00A5C262 /* SettingsCollectionViewCell.swift */; };
+		968AAB7A2962086D00A5C262 /* GameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AAB792962086D00A5C262 /* GameType.swift */; };
+		968AAB7C296CB31400A5C262 /* UserDefaults+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AAB7B296CB31400A5C262 /* UserDefaults+extension.swift */; };
 		96FAFDA428DB9C1100BC9956 /* GameResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFDA328DB9C1100BC9956 /* GameResult.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +38,7 @@
 		9658AE7928B4253C00BA6982 /* PodlodkaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodlodkaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9658AE7C28B4253C00BA6982 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9658AE7E28B4253C00BA6982 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9658AE8028B4253C00BA6982 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9658AE8028B4253C00BA6982 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9658AE8528B4253D00BA6982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9658AE8828B4253D00BA6982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9658AE8A28B4253D00BA6982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +48,9 @@
 		9658AE9828B4E7CD00BA6982 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		9658AE9A28B4E7DC00BA6982 /* RecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
 		9658AE9C28B4E7E900BA6982 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		968AAB772961DAEC00A5C262 /* SettingsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCollectionViewCell.swift; sourceTree = "<group>"; };
+		968AAB792962086D00A5C262 /* GameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameType.swift; sourceTree = "<group>"; };
+		968AAB7B296CB31400A5C262 /* UserDefaults+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+extension.swift"; sourceTree = "<group>"; };
 		96FAFDA328DB9C1100BC9956 /* GameResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				9601156328CB7470007CDCE0 /* UIView+extensions.swift */,
+				968AAB7B296CB31400A5C262 /* UserDefaults+extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -102,32 +109,19 @@
 		9658AE7B28B4253C00BA6982 /* PodlodkaGame */ = {
 			isa = PBXGroup;
 			children = (
+				9658AE8A28B4253D00BA6982 /* Info.plist */,
 				9614A469290EDE8E007C6B59 /* Cells */,
 				960115A928CFB223007CDCE0 /* Fonts */,
 				9601156528CB747A007CDCE0 /* Extensions */,
 				9658AE9128B4E73200BA6982 /* Storyboards */,
-				9658AE9028B4E72200BA6982 /* ViewControllers */,
-				9614A46E290EED2A007C6B59 /* TitleLabelView.swift */,
-				9658AE7C28B4253C00BA6982 /* AppDelegate.swift */,
-				961FC48828D8AA0900D7A50F /* GameSettings.swift */,
-				96FAFDA328DB9C1100BC9956 /* GameResult.swift */,
-				9658AE7E28B4253C00BA6982 /* SceneDelegate.swift */,
-				9658AE8528B4253D00BA6982 /* Assets.xcassets */,
-				9658AE8728B4253D00BA6982 /* LaunchScreen.storyboard */,
-				9658AE8A28B4253D00BA6982 /* Info.plist */,
+				968AAB742961D9DA00A5C262 /* Models */,
+				968AAB722961D94E00A5C262 /* SettingsViewController */,
+				968AAB712961D93D00A5C262 /* RecordsViewController */,
+				968AAB702961D92C00A5C262 /* GameViewController */,
+				968AAB752961DA3700A5C262 /* Resources */,
+				968AAB6F2961D90000A5C262 /* MainViewController */,
 			);
 			path = PodlodkaGame;
-			sourceTree = "<group>";
-		};
-		9658AE9028B4E72200BA6982 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				9658AE8028B4253C00BA6982 /* ViewController.swift */,
-				9658AE9828B4E7CD00BA6982 /* GameViewController.swift */,
-				9658AE9A28B4E7DC00BA6982 /* RecordsViewController.swift */,
-				9658AE9C28B4E7E900BA6982 /* SettingsViewController.swift */,
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		9658AE9128B4E73200BA6982 /* Storyboards */ = {
@@ -138,6 +132,77 @@
 				9658AE9628B4E7B700BA6982 /* SettingsStoryboard.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		968AAB6F2961D90000A5C262 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9658AE8028B4253C00BA6982 /* MainViewController.swift */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		968AAB702961D92C00A5C262 /* GameViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9658AE9828B4E7CD00BA6982 /* GameViewController.swift */,
+			);
+			path = GameViewController;
+			sourceTree = "<group>";
+		};
+		968AAB712961D93D00A5C262 /* RecordsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				968AAB732961D9B700A5C262 /* View */,
+				9658AE9A28B4E7DC00BA6982 /* RecordsViewController.swift */,
+			);
+			path = RecordsViewController;
+			sourceTree = "<group>";
+		};
+		968AAB722961D94E00A5C262 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				968AAB762961DA7700A5C262 /* View */,
+				9658AE9C28B4E7E900BA6982 /* SettingsViewController.swift */,
+			);
+			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		968AAB732961D9B700A5C262 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9614A46E290EED2A007C6B59 /* TitleLabelView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		968AAB742961D9DA00A5C262 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				96FAFDA328DB9C1100BC9956 /* GameResult.swift */,
+				961FC48828D8AA0900D7A50F /* GameSettings.swift */,
+				968AAB792962086D00A5C262 /* GameType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		968AAB752961DA3700A5C262 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9658AE7C28B4253C00BA6982 /* AppDelegate.swift */,
+				9658AE7E28B4253C00BA6982 /* SceneDelegate.swift */,
+				9658AE8528B4253D00BA6982 /* Assets.xcassets */,
+				9658AE8728B4253D00BA6982 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		968AAB762961DA7700A5C262 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				968AAB772961DAEC00A5C262 /* SettingsCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,10 +282,13 @@
 				961FC48928D8AA0A00D7A50F /* GameSettings.swift in Sources */,
 				9601156428CB7470007CDCE0 /* UIView+extensions.swift in Sources */,
 				9658AE9928B4E7CD00BA6982 /* GameViewController.swift in Sources */,
-				9658AE8128B4253C00BA6982 /* ViewController.swift in Sources */,
+				968AAB7A2962086D00A5C262 /* GameType.swift in Sources */,
+				9658AE8128B4253C00BA6982 /* MainViewController.swift in Sources */,
 				9614A46F290EED2A007C6B59 /* TitleLabelView.swift in Sources */,
 				9658AE7D28B4253C00BA6982 /* AppDelegate.swift in Sources */,
+				968AAB782961DAEC00A5C262 /* SettingsCollectionViewCell.swift in Sources */,
 				9658AE7F28B4253C00BA6982 /* SceneDelegate.swift in Sources */,
+				968AAB7C296CB31400A5C262 /* UserDefaults+extension.swift in Sources */,
 				9614A46B290EDEA5007C6B59 /* RecordsTableViewCell.swift in Sources */,
 				9658AE9B28B4E7DC00BA6982 /* RecordsViewController.swift in Sources */,
 				9658AE9D28B4E7E900BA6982 /* SettingsViewController.swift in Sources */,
